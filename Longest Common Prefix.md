@@ -2,7 +2,7 @@ Write a function to find the longest common prefix string amongst an array of st
 
 If there is no common prefix, return an empty string "".
 
-Example 1:
+***Example 1:***
 
 Input: ["flower","flow","flight"]
 Output: "fl"
@@ -16,7 +16,7 @@ Note:
 All given inputs are in lowercase letters a-z.
 
 Solution:
-
+```java
 class Solution {
     private String commonPrefix(String a, String b){
         int len = 0;
@@ -50,3 +50,4 @@ class Solution {
         return result;
     }
 }
+```
