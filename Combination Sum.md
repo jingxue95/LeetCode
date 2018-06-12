@@ -7,7 +7,7 @@ Note:
 
 All numbers (including target) will be positive integers.
 The solution set must not contain duplicate combinations.
-Example 1:
+***Example 1:***
 
 Input: candidates = [2,3,6,7], target = 7,
 A solution set is:
@@ -15,7 +15,7 @@ A solution set is:
   [7],
   [2,2,3]
 ]
-Example 2:
+***Example 2:***
 
 Input: candidates = [2,3,5], target = 8,
 A solution set is:
@@ -25,7 +25,7 @@ A solution set is:
   [3,5]
 ]
 
-
+```java
 class Solution {
     private void dfs(int[] candidates, int target, List<Integer> list, List<List<Integer>> result, int sum, int pos){
         if(sum == target){
@@ -54,3 +54,4 @@ class Solution {
         
     }
 }
+```
