@@ -24,7 +24,7 @@ A solution set is:
   [3,5]
 ]
 
-
+```java
 class Solution {
     private void dfs(int[] candidates, int target, List<Integer> list, List<List<Integer>> result, int sum, int pos){
         if(sum == target){
@@ -53,3 +53,4 @@ class Solution {
         
     }
 }
+```
